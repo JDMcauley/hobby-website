@@ -8,12 +8,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-indigo-200 font-mono">
-    <nav class="bg-pink-400 flex justify-between py-7.5 pl-25 pr-20">
-        <h1 class="text-2xl text-center">
-            Wednesday<br>
-             & <br>
-            Salem</h1>
-        <ul class="flex flex-wrap items-center text-center space-x-20">
+    <nav class="bg-pink-400 flex justify-between w-full py-7.5 pl-25 pr-20">
+        <h1 class="text-2xl text-center mr-5">
+            Wednesday<br>&<br>Salem</h1>
+        <ul class="items-center text-center grid grid-cols-2 gap-4 justify-end lg:flex lg:flex-wrap lg:space-x-10">
             <li class="bg-pink-600 h-10 w-31 p-1.5 rounded-md border-2 border-pink-300 text-pink-300">
                 <a href="index.html">Home</a>
             </li>
@@ -28,19 +26,27 @@
             </li>
         </ul>
     </nav>
-    <div class="grid justify-center grid-rows-3 gap-40  mt-20 mx-10 text-xl/14">
-        <div class="h-100 flex items-center">
-            <img class="h-70 object-scale-down" src="https://i.ibb.co/7J6Zpwf1/wednesday.jpg" alt="wednesday" border="0">
-            <p class="ml-10 h-75 w-200 font-bold flex items-center">This is wednesday! She's extremely fluffy and loves yoghurt treats more than anything! So much so, in fact, she frequently be heard in the early hours of morning demanding someone wake up to give them to her!</p>
+    <div class="grid grid-cols-3 grid-rows-3 mx-4 gap-4 lg:mx-20">
+        <div>
+            <img class="col-span-1 mb-20 mt-10" src="https://i.ibb.co/7J6Zpwf1/wednesday.jpg" alt="wednesday" border="0">
         </div>
-        <div class="h-100 flex items-center">
-            <p class="mr-10 h-75 w-200 font-bold text-right flex items-center">Meet Salem, who spends his days getting into scrapes around the neighbourhood and his evenings tucked away into someones lap.</p>
-            <img class="h-70 object-scale-down" src="https://i.ibb.co/SXFFdr2Z/salem.jpg" alt="salem" border="0">
+        <div class="flex items-center justify-center text-left col-span-2 xl:col-span-1">
+            <p class="text-left md:text-lg lg:text-xl xl:text-2xl p-2">This is wednesday! She's extremely fluffy and loves yoghurt treats more than anything! So much so, in fact, she can frequently be heard in the early hours of morning demanding someone wake up to give them to her!</p>
         </div>
-        <div class="h-100 flex items-center">
-            <a href="salem.html"><img class="h-70 object-scale-down hover:cursor-pointer" src="https://i.ibb.co/wZBkz1nV/xmassalem.jpg" alt="xmassalem" border="0"></a>
-            <p class="px-20 my-10 h-75 w-200 font-bold flex items-center text-center">Which kitties gallery would you like to view? Click on the left or right image, or click the link at the top of your screen.</p>
-            <a href="wednesday.html"><img class="h-70 object-scale-down hover:cursor-pointer" src="https://i.ibb.co/Ng4qWvsy/xmaswednesday.jpg" alt="xmaswednesday" border="0"></a>
+        <div class="flex items-center justify-center text-right row-start-2 col-span-2 xl:col-span-1 xl:col-start-2">
+            <p class="md:text-lg lg:text-xl xl:text-2xl">Meet Salem, who spends his days getting into scrapes around the neighbourhood, meeting new friends and exploring! But his evenings are spent tucked away into someones lap, relaxed and content.</p>
+        </div>
+        <div class="row-start-2 xl:col-start-3">
+            <img class="mb-20" src="https://i.ibb.co/xqVdwgZz/IMG-6498.jpg" alt="salem" border="0">
+        </div>
+        <div class="row-start-3 flex items-center">
+            <a href="salem.html"><img class="hover:cursor-pointer" src="https://i.ibb.co/wZBkz1nV/xmassalem.jpg" alt="xmassalem" border="0"></a>
+        </div>
+        <div class="row-start-3 flex items-center justify-center text-center lg:mx-5">
+            <p class="md:text-lg lg:text-xl xl:text-2xl">Which kittie's gallery would you like to view? Click on the left or right image, or click the link at the top of your screen.</p>
+        </div>
+        <div class="row-start-3 flex items-center">
+            <a href="wednesday.html"><img class="hover:cursor-pointer" src="https://i.ibb.co/Ng4qWvsy/xmaswednesday.jpg" alt="xmaswednesday" border="0"></a>
         </div>
     </div>
 </body>
